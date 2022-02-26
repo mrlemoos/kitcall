@@ -14,5 +14,8 @@
   },
   "scripts": {
     "bundle": "microbundle"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
