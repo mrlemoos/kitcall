@@ -71,9 +71,11 @@ function call({
     }
 
     if (
-      uri.startsWith("http://") ||
-      uri.startsWith("https://") ||
-      uri.startsWith("/")
+      !(
+        uri.startsWith("http://") ||
+        uri.startsWith("https://") ||
+        uri.startsWith("/")
+      )
     ) {
       throw new Error(
         'I can be wrong, but I think you forgot to add "http://" or "https://" at the beginning of your URI. \\_(-_-)_/ We don’t have it automatically because we’re not sure which of them you wanna use as prefix. \n'
