@@ -4,7 +4,6 @@ const defaultCallOptions: CallOptions = {
   onCatch: (err) => {
     throw err;
   },
-  onFinally: () => {},
   onSuccess: (result) => result,
 };
 
