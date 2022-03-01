@@ -6,7 +6,6 @@
   "repository": "git@github.com:mrlemoos/call.git",
   "author": "Leonardo Lemos <leo.lemos.ds@icloud.com>",
   "license": "MIT",
-  "private": false,
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
