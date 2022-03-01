@@ -17,5 +17,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "resolutions": {
+    "node": ">=17.5.0"
   }
 }
