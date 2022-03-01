@@ -1,5 +1,5 @@
 {
-  "name": "@mrlemoos/call",
+  "name": "callkit",
   "version": "0.1.0",
   "description": "The call function is a lib to help you call things :)",
   "main": "dist/call.js",
@@ -13,6 +13,15 @@
     "ts-jest": "^27.1.3",
     "typescript": "^4.5.5"
   },
+  "maintainers": [
+    {
+      "name": "Leonardo Lemos",
+      "email": "leo.lemos.ds@icloud.com"
+    }
+  ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "bundle": "microbundle",
     "test": "jest"
