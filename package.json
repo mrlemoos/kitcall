@@ -1,5 +1,5 @@
 {
-  "name": "callkit",
+  "name": "kitcall",
   "version": "0.1.0",
   "description": "The call function is a lib to help you call things :)",
   "main": "dist/call.js",
