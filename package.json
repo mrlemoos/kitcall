@@ -1,6 +1,6 @@
 {
   "name": "kitcall",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The call function is a lib to help you call things :)",
   "main": "dist/call.js",
   "repository": "git@github.com:mrlemoos/call.git",
