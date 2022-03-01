@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm run build
+      - run: npm run bundle
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
