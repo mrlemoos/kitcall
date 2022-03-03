@@ -1,6 +1,6 @@
 {
   "name": "kitcall",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The call function is a lib to help you call things :)",
   "main": "dist/kitcall.cjs.js",
   "module": "dist/kitcall.esm.js",
