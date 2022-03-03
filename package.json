@@ -2,16 +2,23 @@
   "name": "kitcall",
   "version": "0.1.1",
   "description": "The call function is a lib to help you call things :)",
-  "main": "dist/call.js",
+  "main": "build/kitcall.cjs.js",
+  "module": "build/kitcall.esm.js",
+  "browser": "build/kitcall.umd.js",
   "repository": "git@github.com:mrlemoos/call.git",
   "author": "Leonardo Lemos <leo.lemos.ds@icloud.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "@types/node-fetch": "^2.6.1",
+    "bili": "^5.0.5",
     "jest": "^27.5.1",
-    "microbundle": "^0.14.2",
+    "rimraf": "^3.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
     "ts-jest": "^27.1.3",
-    "typescript": "^4.5.5"
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2"
   },
   "maintainers": [
     {
@@ -20,14 +27,11 @@
     }
   ],
   "files": [
-    "dist"
+    "build"
   ],
   "scripts": {
-    "bundle": "microbundle",
+    "bundle": "bili",
     "test": "jest"
-  },
-  "resolutions": {
-    "node": ">=17.5.0"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.1.0"
