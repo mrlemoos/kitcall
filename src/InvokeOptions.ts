@@ -1,8 +1,11 @@
 import type CallOptions from "./CallOptions";
+import type KeyHeaders from "./KeyHeaders";
 
 type OmittedCallOptions = Omit<CallOptions, "baseURL">;
-interface InvokeOptions<BodyToSend> extends OmittedCallOptions {
-  headers?: { [key: string]: string };
+interface InvokeOptions<BodyToSend = unknown> extends OmittedCallOptions {
+  headers?: {
+    [K in KeyHeaders]?: any;
+  };
   body?: BodyToSend;
   mode?: RequestMode;
   cache?: RequestCache;

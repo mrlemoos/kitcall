@@ -10,7 +10,7 @@ function call({
   onCatch,
   onSuccess,
 }: CallOptions = defaultCallOptions) {
-  return async function _invoke<BodyToSend = never, BodyExpected = never>(
+  return async function _invoke<BodyToSend = unknown, BodyExpected = never>(
     endpoint: Endpoint,
     {
       headers,
