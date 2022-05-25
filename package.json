@@ -27,7 +27,7 @@
     "dist"
   ],
   "scripts": {
-    "bundle": "bili",
+    "bundle": "microbundle",
     "test": "jest"
   },
   "dependencies": {
