@@ -1,5 +1,7 @@
 # KitCall!
 
+:warning: As of September 16, 2022, kitcall package is **deprecated** in favour of [grabkit](https://github.com/mrlemoos/grabkit).
+
 `kitcall` is a lib focused on calling asynchronous HTTP APIs through a problem-freely, faster and more semantic way.
 
 ### Installation
